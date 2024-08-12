@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website : ```https://dilumin.github.io/portfolio```
+
+Welcome to my portfolio! This repository showcases my skills and projects .This portfolio is created with React and highlights my projects and achievements in computer science and engineering. The main screen features a unique transition effect, where the page transitions by cutting into strips, providing a dynamic user experience.
+
 
 ## Available Scripts
 
@@ -13,6 +16,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+### `npm run deploy`
+Deploys and continuosly updates the website
+
 
 ### `npm test`
 
