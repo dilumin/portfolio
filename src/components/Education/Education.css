@@ -14,7 +14,7 @@
     margin-left: 50px;
 }
 .about .content{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 80px;
     text-align: end;
     margin-left: 50px;
@@ -30,4 +30,62 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 1080px) {
+    .about .content{
+        font-size: 1.2em;
+    }
+    .Edu-con{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width: 910px) {
+    .uni {
+        transform: scale(0.9);
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    .about .content{
+        font-size: 1.1em;
+    }
+    .Edu-con{
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+    .uni{
+        transform: scale(0.7);
+    }
+
+}
+
+
+@media screen and (max-width: 530px) {
+    .Edu-con{
+        margin-left: 60px;
+        margin-right: 10px;
+    }
+    .about .content{
+        font-size: 1em;
+    }
+    .uni{
+        transform: scale(0.5);
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .Edu-con{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .about .content{
+        font-size: 0.75em;
+    }
+    .uni{
+        transform: scale(0.4);
+    }
+
 }

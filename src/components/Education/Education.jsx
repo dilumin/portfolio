@@ -11,7 +11,7 @@ function Education() {
            " I'm a Passionate Computer Science and Engineering undergraduate with a keen interest in AI, embedded systems, web development and cloud computing.  My passion lies in solving complex challenges and creating innovative, real-world solutions. With a strong foundation in technology and a creative mindset, I continuously strive to learn and evolve. I aim to blend cutting-edge technology with thoughtful design to build impactful digital experiences that make a meaningful difference. "
             </div>
         </div>
-        <div className="uni">
+         <div className="uni">
             <div className="con">
                 <div>
                 <h1>University of Moratuwa</h1>
@@ -22,8 +22,7 @@ function Education() {
             <div className="uni-pic">
                <img src={mora} alt="" />
             </div>
-        </div>
-        {/* <ScrollingSideway /> */}
+        </div> 
 
     </div>
   )

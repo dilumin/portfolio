@@ -36,3 +36,28 @@ ul{
     height: 25%;
     bottom: 0;
 }
+
+@media screen and (max-width: 445px){
+    .navbar-logo{
+        transform: scale(0.7);
+    }
+    .navbar-con{
+        width: 60px;
+    }
+    .point{
+        font-size: 0.9em;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .navbar-con{
+        width: 50px;
+    }
+}
+    

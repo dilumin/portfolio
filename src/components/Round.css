@@ -13,11 +13,7 @@ body {
     --yellow: #ffbb00;
   
     --accent: var(--ash-black);
-  
-    margin: 0;
-    padding: 0;
-    background-color: var(--background);
-    padding-bottom: 100px;
+
   }
 
 

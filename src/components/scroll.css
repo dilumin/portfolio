@@ -18,7 +18,7 @@ section {
 .parallax .scroller {
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 7em;
+  font-size: 5em;
   display: flex;
   white-space: nowrap;
   display: flex;
@@ -28,4 +28,27 @@ section {
 .parallax span {
   display: block;
   margin-right: 30px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .parallax .scroller {
+    font-size: 4em;
+  
+  }
+}
+@media screen and (max-width: 445px) {
+
+  section{
+    margin-left: 60px;
+  }
+  .parallax .scroller {
+    font-size: 2.5em;
+  
+  }
+}
+@media screen and (max-width: 345px) {
+  section{
+    margin-left: 50px;
+  }
 }

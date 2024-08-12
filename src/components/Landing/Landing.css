@@ -39,4 +39,141 @@
     height: 110%;
     top: -50px;
 }
+
+@media screen and (max-width: 1080px){
+    .name{
+
+        font-size: 5rem;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .typewrite{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 925px){
+    .photo-con{
+        transform: scale(0.8);
+    }
+
+}
+
+@media screen and (max-width: 860px){
+    .photo-con{
+        transform: scale(0.6);
+    }
+    .name{
+        font-size: 4rem;
+        position: relative;
+        right: 30px;
+    }
+    .role{
+        position: relative;
+        right: 30px;
+    }
+    .typewrite{
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width: 740px){
+
+    .name{
+        font-size: 3rem;
+        text-align: center;
+        
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+    .landing{
+        flex-direction: column;
+    }
+    .photo-con{
+        transform: scale(0.7);
+    }
+    .role{
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 510px){
+    .photo-con{
+        position: relative;
+        right: 40px;
+
+    }
+    .role{
+        font-size: 1rem;
+    }
+    .typewrite{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .photo-con{
+        transform: scale(0.6);
+        position: relative;
+        right: 60px;
+    }
+
+    .typewrite{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 440px){
+    .photo-con{
+        transform: scale(0.7);
+        position: relative;
+        right: 85px;
+    }
+
+    .role{
+        font-size: 0.8rem;
+        right: 35px;
+    }
+    .typewrite{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 420px)
+{
+    .photo-con{
+        transform: scale(0.6);
+        position: relative;
+        right: 95px;
+    }
+    .name{
+        font-size: 3rem;
+    }
+    
+}
+
+@media screen and (max-width: 380px)
+{
+    .photo-con{
+        transform: scale(0.5);
+        position: relative;
+        right: 155px;
+    }
+    .name{
+        font-size: 2.5rem;
+        right: 40px;
+    }
+
+}
+
+
+
+
 /* -------------------------------- */
