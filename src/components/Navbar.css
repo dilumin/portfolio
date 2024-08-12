@@ -1,0 +1,38 @@
+.navbar-con{
+    z-index: 100;
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    border-right: 2px solid black;
+
+}
+.navbar-links{
+    list-style: none;
+    text-decoration: none;
+}
+.point{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 100vh;
+}
+.navbar-links{
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    height: 25%;
+    bottom: 0;
+}

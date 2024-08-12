@@ -1,0 +1,42 @@
+.landing-con{
+    height: 100vh;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.landing{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    font-family: "poppins", sans-serif;
+    font-size: 7rem;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    text-align: end;
+    justify-content: center;
+    
+}
+.role{
+    text-align: end;
+}
+.photo-con{
+    position: relative;
+    background-color: #f4f4f4;
+    width: 400px;
+    height: 60vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.me{
+    position: relative;
+    height: 110%;
+    top: -50px;
+}
+/* -------------------------------- */
