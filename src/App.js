@@ -17,7 +17,7 @@ function App() {
       <Landing />
       <ScrollingSideway />
       <Education />
-      {/* <Projects /> */}
+      <Projects />
 
     </div>
   );

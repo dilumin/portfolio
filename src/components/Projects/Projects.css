@@ -1,3 +1,46 @@
-.project-con{
+.project-con {
     font-family: "poppins", sans-serif;
+}
+
+.name1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.projects {
+    margin-left: 100px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-1 , .project-2, .project-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 30px;
+    border-radius: 26px;
+    box-shadow: 5px 0px 20px rgba(0, 0,0 , 0.3); /* Add the drop shadow */
+
+}
+.project-1{
+    background-color: #383335;
+    color: #ffffff;
+
+}
+
+.project-1 .project-name{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 20px;
+    
+}
+.project-2{
+    background-color: #ffffff;
+}
+.project-3{
+    background-color: #B8B5AC;
 }
