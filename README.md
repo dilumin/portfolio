@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! This repository showcases my skills and projects .This portfolio is created with React and highlights my projects and achievements in computer science and engineering. The main screen features a unique transition effect, where the page transitions by cutting into strips, providing a dynamic user experience.
+
 
 ## Available Scripts
 
