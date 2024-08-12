@@ -5,6 +5,7 @@ import Landing from './components/Landing/Landing';
 import Education from './components/Education/Education';
 import ScrollingSideway from './components/ScrollingSideway';
 import Round from './components/Round';
+import Projects from './components/Projects/Projects';
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
       <Landing />
       <ScrollingSideway />
       <Education />
-      
+      <Projects />
 
     </div>
   );
