@@ -1,0 +1,8 @@
+.footer-con{
+    height: 300px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
