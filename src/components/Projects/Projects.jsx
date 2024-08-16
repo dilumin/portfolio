@@ -35,7 +35,7 @@ function Projects() {
               This Web based system is developed for a bank to manage their customers and accounts. The system is developed using flask and MySQL. The primary target was to make the system safe therefore no javascript is used in the front end. This was for a university project with a team of 4 members. I was responsible for development of certain backend functionalities , database design and most of the UI frontend designs.
             </div> 
 
-            <button className="button-27" role="button"> <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
+            <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
               <img src={github} alt="" />
             </button>
             
@@ -49,13 +49,11 @@ function Projects() {
               This was a personal Project that I am working on to make reliable chat application. The application is developed using React.js , Node Js , MySQL and Socket.io . I started this project as a way to learn websockets and to improve my skills .
             </div>
 
-            <button className="button-27" role="button"> <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
+            <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
               <img src={github} alt="" />
             </button>            
           </div>
-        </div>
-        
-        
+        </div> 
     </div>
   )
 }
