@@ -17,10 +17,10 @@ function Projects() {
               This is a web application that I worked as a project manager and developer. It is a platform for a competition organized by IEEE of University of Moratuwa. The platform is used to submit the projects and to evaluate them. The platform is developed using React.js , Node Js and MySQL. 
             </div>
             <div className='but-con'>
-              <button className="button-27" role="button"> <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
+              <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
                 <img src={github} alt="" />
               </button>
-              <button style={{marginTop:"15px"}} className="button-27" role="button"> <div style={{fontSize: "13px" ,paddingTop:"5px" }}>  Demonstate</div> 
+              <button style={{marginTop:"15px"}} className="button-27" > <div style={{fontSize: "13px" ,paddingTop:"5px" }}>  Demonstate</div> 
               </button>
 
 
