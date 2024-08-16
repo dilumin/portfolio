@@ -1,6 +1,5 @@
 import React from 'react'
 import './Education.css'
-import ScrollingSideway from '../ScrollingSideway';
 import mora from './Mora.png'
 
 function Education() {
