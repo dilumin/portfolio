@@ -66,9 +66,9 @@ function Landing() {
         <div className='landing-con'>
         
         <h1>
-            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, My name is....." ]'>
+            <div class="typewrite" data-period="2000" data-type='[ "Hi, My name is....." ]'>
                 <span class="wrap"></span>
-            </a>
+            </div>
         </h1>
 
 

@@ -14,11 +14,11 @@ function Navbar() {
             </div>
             
             <ul className='navbar-links'>
-                <li className='point' style={{fontWeight:'bold'}}><a href='#'>Me</a></li>
-                <li className='point'><a href='#'>Education</a></li>
-                <li className='point'><a href='#'>Projects</a></li>
-                <li className='point'><a href='#'>Contact</a></li>
-                <li className='point'><a href='#'>CV</a></li>
+                <li className='point' style={{fontWeight:'bold'}}><div>Me</div></li>
+                <li className='point'><div>Education</div></li>
+                <li className='point'><div>Projects</div></li>
+                <li className='point'><div>Contact</div></li>
+                <li className='point'><div>CV</div></li>
 
             </ul>
         </nav>
