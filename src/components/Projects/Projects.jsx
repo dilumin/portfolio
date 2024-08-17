@@ -2,9 +2,11 @@ import React from 'react'
 import './Projects.css'
 import github from './github.png'
 
+
 function Projects() {
   return (
     <div className='project-con'>
+
         <div className="name1">
           Projects
         </div>
@@ -54,6 +56,25 @@ function Projects() {
             </button>            
           </div>
         </div> 
+        <div className="contact-me-con">
+          <div className="name1">
+            Contact Me
+          </div>
+          <form action="https://send.pageclip.co/Hhcols3UuHsRnepkm7rek1zSHCOxlzZH" className="contact" method="post">
+
+
+            <input type="text" className='input' name="name" placeholder="Name" />
+            <input type="email" className='input' name="email" placeholder="Email" />
+            <input type="text" className='input' name="message" placeholder="Message" style={{height: "6em", marginBottom:"30px"}} />
+            
+
+            <button type="submit" class="pageclip-form__submit">
+              <span>Send</span>
+            </button>
+          </form>
+
+        </div>
+        
     </div>
   )
 }

@@ -4,6 +4,7 @@
     width: 100px;
     height: 100vh;
     border-right: 2px solid black;
+    margin-bottom: 300px;
 
 }
 .navbar-links{
@@ -12,12 +13,19 @@
 }
 .point{
     text-decoration: none;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    border-radius: 10px;
+
 }
-a{
+li{
+    padding: 10px;
     text-decoration: none;
     color: black;
     font-family: 'poppins', sans-serif;
     font-weight: bold;
+    width: 100%;
+
 }
 ul{
     padding: 0;
@@ -27,14 +35,19 @@ ul{
     height: 100vh;
 }
 .navbar-links{
+    width: 100px;
     position: fixed;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: end;
     height: 25%;
     bottom: 0;
+}
+.point:hover{
+    background-color: rgb(141, 137, 132);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 445px){
@@ -60,4 +73,6 @@ ul{
         width: 50px;
     }
 }
+
+  
     
