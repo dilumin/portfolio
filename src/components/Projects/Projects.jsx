@@ -55,6 +55,51 @@ function Projects() {
               <img src={github} alt="" />
             </button>            
           </div>
+
+          <div className="project-2">
+            <div className="project-name">
+              MicroMouse <br /> 
+            </div>
+            <div className="project-desc">
+              This is a project that I worked as a team of 4 members. The project is to develop a robot that can solve a maze. The robot is developed using an ESP32 microcontroller and the maze is solved using a flood fill algorithm. The robot is developed using C++ . This project was done for a competition organized by SLIIT Robofest and we were able to sucure a spot as a finalist in the competition.
+            </div>
+            <div className='but-con'>
+              <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
+                <img src={github} alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div className="project-3">
+            <div className="project-name">
+              NanoProcessor <br /> 
+            </div>
+            <div className="project-desc"> 
+              This is a project that I worked as a team of 2 members. The project is to develop a 8 bit processor using VHDL. The processor was able to perform basic arithmetic operations such as addition, subtraction, multiplication , shift operations and logical operations. The processor was able to store data in a memory and was able to run a simple assembly code. The processor was developed using Xilinx ISE and was tested on a FPGA board. 
+            </div>
+            <div className='but-con'>
+              <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
+                <img src={github} alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div className="project-1">
+            <div className="project-name">
+              Website for IDEALIZE 24 <br /> 
+            </div>
+            <div className="project-desc"> 
+            IDEALIZE 24 is a web and mobile app development competition organized by AIESEC at the University of Moratuwa. As the organizing committee president for the Tech team, I developed the competition's website using HTML, CSS, JavaScript, and GSAP for animations. My focus was on enhancing my UI/UX design skills and ensuring the website was simple, fast, and minimal in terms of overload.            </div>
+            <div className='but-con'>
+              <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}}>  Check on Github</div> 
+                <img src={github} alt="" />
+              </button>
+              <button style={{marginTop:"15px"}} className="button-27" > <div style={{fontSize: "13px" ,paddingTop:"5px" }}>  Demonstate</div> 
+              </button>
+
+            </div>
+          </div> 
+
         </div> 
         <div className="contact-me-con">
           <div className="name1">

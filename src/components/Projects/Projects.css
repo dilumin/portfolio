@@ -96,9 +96,24 @@
 }
 @media screen and (max-width: 440px) {
     .projects {
-        margin-left: 40px;
+        margin-left: 30px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .projects {
+        margin-right: 30px;
+    }
+    .project-1 , .project-2, .project-3 {
+        margin: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+
+}
+
 @media screen and (max-width: 380px) {
     .project-desc{
         font-size: 13px;
@@ -107,6 +122,7 @@
         font-size: 15px;
     }
 }
+
 
 
 
@@ -177,6 +193,7 @@
 .contact-me-con{
     margin-left: 50px;
     margin-right: 50pxs;
+    margin-top: 100px;
 }
 .contact{
     display: flex;
