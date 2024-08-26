@@ -6,6 +6,14 @@
     justify-content: center;
 
 }
+
+@media screen and (max-width: 650px){
+    .landing-con{
+        margin-left: 50px;
+    }
+    
+}
+
 .landing{
     display: flex;
     justify-content: space-around;
@@ -27,7 +35,7 @@
 .photo-con{
     position: relative;
     background-color: #f4f4f4;
-    width: 400px;
+    width: 100%;
     height: 60vh;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -35,6 +43,14 @@
     justify-content: center;
 
 }
+
+@media screen and (min-width: 450px){
+    .photo-con{
+        width: 400px;
+    }
+    
+}
+
 .me{
     position: relative;
     height: 110%;
@@ -70,12 +86,12 @@
     }
     .name{
         font-size: 4rem;
-        position: relative;
-        right: 30px;
+        /* position: relative;
+        right: 30px; */
     }
     .role{
-        position: relative;
-        right: 30px;
+        /* position: relative;
+        right: 30px; */
     }
     .typewrite{
         font-size: 1.2rem;
@@ -107,8 +123,8 @@
 
 @media screen and (max-width: 510px){
     .photo-con{
-        position: relative;
-        right: 40px;
+        /* position: relative;
+        right: 40px; */
 
     }
     .role{
@@ -123,8 +139,8 @@
 @media screen and (max-width: 480px){
     .photo-con{
         transform: scale(0.6);
-        position: relative;
-        right: 60px;
+        /* position: relative; */
+        /* right: 60px; */
     }
 
     .typewrite{
@@ -134,13 +150,13 @@
 @media screen and (max-width: 440px){
     .photo-con{
         transform: scale(0.7);
-        position: relative;
-        right: 85px;
+        /* position: relative; */
+        /* right: 85px; */
     }
 
     .role{
         font-size: 0.8rem;
-        right: 35px;
+        /* right: 35px; */
     }
     .typewrite{
         font-size: 0.9rem;
@@ -150,9 +166,9 @@
 @media screen and (max-width: 420px)
 {
     .photo-con{
-        transform: scale(0.6);
-        position: relative;
-        right: 95px;
+        transform: scale(0.7);
+        /* position: relative;
+        right: 95px; */
     }
     .name{
         font-size: 3rem;
@@ -163,13 +179,13 @@
 @media screen and (max-width: 380px)
 {
     .photo-con{
-        transform: scale(0.5);
-        position: relative;
-        right: 155px;
+        transform: scale(0.7);
+        /* position: relative;
+        right: 155px; */
     }
     .name{
         font-size: 2.5rem;
-        right: 40px;
+        /* right: 40px; */
     }
 
 }

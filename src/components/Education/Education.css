@@ -1,11 +1,10 @@
 .Edu-con{
     margin-top: 50px;
     margin-left: 150px;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'poppins', sans-serif;
     margin-right: 150px;
-    display: flex;
-    flex-direction: column;
+
 
 }
 .about .title{
@@ -13,6 +12,57 @@
     font-weight: bold;
     margin-left: 50px;
 }
+
+.uni .uom{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.uni .cs{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.uni .un{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+    .uni .uom{
+        font-size: 3rem;
+    }
+    .uni .cs{
+        font-size: 1.5rem;
+    }
+    .uni .un{
+        font-size: 1rem;
+    }
+    .Edu-con{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+}
+@media screen and (max-width: 1150px) {
+    .uni .uom{
+        font-size: 2rem;
+    }    
+}
+@media screen and (max-width: 950px) {
+    .uni .cs{
+        font-size: 1rem;
+    }
+    .uni .un{
+        font-size: 1rem;
+    }    
+
+}
+
+
+
 .about .content{
     font-size: 1.3rem;
     margin-top: 80px;
@@ -25,12 +75,21 @@
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+    width: 100%;
 }
 .uni .con{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 830px) {
+    .uni-pic{
+        transform: scale(0.8);
+    }
+    
+}
+
 
 @media screen and (max-width: 1080px) {
     .about .content{
@@ -42,25 +101,26 @@
     }
 }
 @media screen and (max-width: 910px) {
-    .uni {
+    .uni-pic {
         transform: scale(0.9);
     }
 }
 
 
 @media screen and (max-width: 890px) {
-    .about .content{
-        font-size: 1.1em;
-    }
-    .Edu-con{
-        margin-left: 80px;
-        margin-right: 40px;
-    }
-    .uni{
+    .uni-pic{
         transform: scale(0.7);
     }
 
 }
+
+@media screen and (max-width: 830px) {
+    .uni-pic{
+        /* transform: scale(1); */
+    }
+
+}
+
 
 
 @media screen and (max-width: 530px) {
@@ -71,8 +131,11 @@
     .about .content{
         font-size: 1em;
     }
-    .uni{
+    .uni-pic{
         transform: scale(0.5);
+    }
+    .Edu-con{
+        margin-left: 20px;
     }
 
 }
@@ -84,8 +147,22 @@
     .about .content{
         font-size: 0.75em;
     }
-    .uni{
+    .uni-pic{
         transform: scale(0.4);
     }
 
+}
+
+@media screen and (max-width: 650px) {
+    .uni .uom{
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    .uni .cs{
+        font-size: 0.8rem;
+    }
+    .uni .un{
+        font-size: 0.6rem;
+    }
+    
 }

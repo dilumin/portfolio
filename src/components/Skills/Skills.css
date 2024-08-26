@@ -1,0 +1,102 @@
+.skill-con{
+    padding-top: 80px;
+}
+
+.skill-con .header{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+}
+.skill-con1{
+    border-radius: 26px;
+    margin-left: 150px;
+    background-color:  white;
+    margin-right: 100px;
+    margin-top: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 750px) {
+    .skill-con .header{
+        font-size: 2.5rem;
+    }
+    .skill-con {
+        margin-left: 100px;
+    }
+    .skill-con1{
+        margin-left: 50px;
+        margin-right: 50px;
+    }    
+}
+
+@media screen and (max-width: 550px) {
+    .skill-con .header{
+        font-size: 2.4rem;
+    }
+    .skill-con {
+        margin-left: 100px;
+    }
+    .skill-con1{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }    
+    
+}
+
+@media screen and (max-width: 450px) {
+    .skill-con{
+        margin-left: 35px;
+    }
+    .skill-con1{
+        padding: 30px;
+    }
+}
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center; /* Add this line */
+}
+
+@media screen and (max-width: 700px) {
+    .logos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .logos{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+.logo1{
+    width: 80px;
+    margin-bottom: 70px;
+    justify-self: center; /* Add this line */
+    transition: transform 0.3s ease;
+
+
+}
+
+@media screen and (max-width: 950px) {
+    .logo1{
+        width: 60px;
+    }
+    
+}
+
+
+.logo1:hover{
+    transform: scale(1.4) ;
+}
+
+
+
+.skill-con1{
+    padding-top: 80px;
+}

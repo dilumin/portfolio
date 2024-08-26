@@ -47,6 +47,13 @@ section {
   
   }
 }
+
+@media screen and (max-width: 440px){
+  section{
+    margin-left: 30px;
+  }
+}
+
 @media screen and (max-width: 345px) {
   section{
     margin-left: 50px;

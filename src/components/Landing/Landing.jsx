@@ -63,7 +63,7 @@ function Landing() {
   return (
     <div>
         
-        <div className='landing-con'>
+        <div className='landing-con' id='Me' >
         
         <h1>
             <div class="typewrite" data-period="2000" data-type='[ "Hi, My name is....." ]'>
@@ -77,7 +77,7 @@ function Landing() {
                 <div className='title'>
                     
                     <div className="name">Shyamal <br />De Silva</div>
-                    <div className="role">Com.Sci Engineering UG</div>
+                    <div className="role">Undegraduate Student</div>
                 </div>
                 <div className="photo-con">
                     <img className='me' src={me} alt="" />

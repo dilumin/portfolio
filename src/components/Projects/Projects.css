@@ -195,6 +195,7 @@
     margin-right: 50pxs;
     margin-top: 100px;
 }
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -215,6 +216,25 @@
     border-radius: 10px;
     transition: all 0.5s;
   }
+
+  @media screen and (max-width: 420px) {
+    .input{
+        width: 85%;
+    }
+    
+  }
+  
+@media screen and (max-width: 440px) {
+    .contact-me-con{
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    .input{
+        width: 89%;
+    }
+    
+}
+
   
   
   .input:hover,
