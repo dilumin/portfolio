@@ -11,6 +11,35 @@ function Projects() {
           Projects
         </div>
         <div className="projects">
+
+          <div className="project-1">
+            <div className="project-name">
+             LLM-based Automated Program Repair System (FYP) <br /> 
+            </div>
+            <div className="project-desc"> 
+An end-to-end LLM-driven APR framework for real-world Java bugs that generates, applies, and validates patches through build-and-test feedback. It uses MCTS to search and prioritize promising candidate patches quickly, and a GRPO-style fine-tuning pipeline that learns from compilation/test rewards plus natural-language feedback to improve correctness and stability over time.            </div>
+            <div className='but-con'>
+              {/* <button style={{marginTop:"15px"}} className="button-27" > <div style={{fontSize: "13px" ,paddingTop:"5px" }} onClick={() => window.location.href ="https://aiesec.lk/idealize" }  >  Demonstate</div> 
+              </button> */}
+            </div>
+          </div>
+
+          
+          <div className="project-2">
+            <div className="project-name">
+              Cloud Drive Platform <br /> 
+            </div>
+            <div className="project-desc">
+Cloud Drive Platform is an ongoing full-stack project that recreates core Drive workflows using React, a Node.js BFF, and a NestJS microservice backend. It implements a tree-based metadata layer with unique folder naming, cycle-safe moves, and transactional rename/move/delete. Files are stored in AWS S3 via resumable multipart uploads (pre-signed URLs), session tracking, idempotent completion, and versioning.</div>
+            <div className='but-con'>
+              <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px"}} onClick={() => window.location.href ="https://github.com/dilumin/Cloud-Drive" }  >   Github</div> 
+                <img src={github} alt="" />
+              </button>
+            </div>
+          </div>
+
+
+          
           <div className="project-1">
             <div className="project-name">
               MoraUxplore <br /> Web
@@ -25,9 +54,7 @@ function Projects() {
               </button>   
             </div>
             <div style={{display:"flex", marginTop:"20px" , justifyContent: "center"}}>
-              <button className="button-27" > <div style={{paddingRight: "15px" , fontSize: "13px" ,paddingTop:"5px" }} onClick={() => window.location.href ="https://morauxplore.lk" } > Demonstrate</div> 
-                <img src={github} alt="" />
-              </button>   
+  
             </div>
 
 

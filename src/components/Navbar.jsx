@@ -49,7 +49,7 @@ function Navbar() {
           <li className='point' onClick={()=>scrollToSection("Projects")} ><div>Projects</div></li>
           <li className='point' onClick={()=>scrollToSection("Interests")} ><div>Interests</div></li>
           <li className='point' onClick={()=>scrollToSection("Contact")} ><div>Contact</div></li>
-          <li className='point' onClick={() => window.location.href ="https://drive.google.com/uc?export=download&id=1YiRs1TcQ84uSEr0MCwRU8M8nCdyFO0pF" } ><div>CV</div></li>
+          <li className='point' onClick={() => window.location.href ="https://drive.google.com/uc?export=download&id=1D4NoMXN_j8zcP5vF4c2vzJRUQiyx3F6s" } ><div>CV</div></li>
         </ul>
       </nav>
     </div>

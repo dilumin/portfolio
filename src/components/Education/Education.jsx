@@ -15,7 +15,7 @@ function Education() {
                 <div>
                 <div className='uom'>University of Moratuwa</div>
                 <div className='cs'>Computer Science and Engineering</div>
-                <div className='un'>3rd Year Undergraduate</div>
+                <div className='un'>Final Year Undergraduate</div>
                 </div>
             </div>
             <div className="uni-pic">
